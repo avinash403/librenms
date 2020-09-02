@@ -341,6 +341,19 @@ $graphs['mailcow-postfix'] = array(
 $graphs['backupninja'] = array(
     'backupninja',
 );
+$graphs['icecast']    = array(
+    'cpuload',
+    'memoryusage',
+);
+$graphs['voip-monitor']    = array(
+    'cpuload',
+    'memoryusage',
+    'openfiles'
+);
+$graphs['opensips']    = array(
+    'load',
+    'memory',
+);
 
 echo '<div class="panel panel-default">';
 echo '<div class="panel-heading">';
